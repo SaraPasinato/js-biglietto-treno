@@ -40,4 +40,5 @@ if (age<18){
 //debug inline
 console.log("il prezzo totale è :", price, typeof price);
 
+//ensure 2 digit after units
 total.innerText=parseFloat(price).toFixed(2);
