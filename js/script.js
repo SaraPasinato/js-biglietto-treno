@@ -29,7 +29,7 @@ if (isNaN(distance) || isNaN(age)) {
 
     //reset value 
     distance = 0;
-    eta = 0;
+    age = 0;
 }
 //validation distance
 if (distance < 0) {
@@ -37,6 +37,9 @@ if (distance < 0) {
     console.error("errore:  distanza: ", distance);
     //reset value 
     distance = 0;
+    //change color user 
+    pDistance = document.getElementById('distance');
+    pDistance.style.color = "Red";
 }
 
 //validation age
@@ -45,8 +48,11 @@ if (age < 0 || age > 110) {
     console.error("errore: età: ", age);
     //reset value 
 
-    eta = 0;
-    distance=0;
+    age = 0;
+    distance = 0;
+    //change color user 
+    pAge = document.getElementById('age');
+    pAge.style.color = "Red";
 }
 
 //debug inline
