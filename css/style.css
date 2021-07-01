@@ -17,3 +17,6 @@ main .row{
 #distance::after{
     content:' Km';
 }
+#age::after{
+    content:' anni';
+}
