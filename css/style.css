@@ -9,3 +9,10 @@ main .row{
     border-radius: 20px;
     background-color: bisque;
 }
+
+#total::after{
+    content:' €';
+}
+#distance::after{
+    content:' Km';
+}
