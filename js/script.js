@@ -46,6 +46,7 @@ if (age < 0 || age > 110) {
     //reset value 
 
     eta = 0;
+    distance=0;
 }
 
 //debug inline
