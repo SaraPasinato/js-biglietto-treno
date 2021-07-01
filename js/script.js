@@ -60,9 +60,9 @@ console.log("imponibile: ", price, typeof price);
 
 //discount under 18
 if (age < 18) {
-    price += ((price * 20) / 100);
+    price -= ((price * 20) / 100);
 } else if (age >= 65) {        //discount over 65
-    price += ((price * 40) / 100);
+    price -= ((price * 40) / 100);
 }
 
 //debug inline
