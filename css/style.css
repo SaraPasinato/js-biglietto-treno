@@ -8,6 +8,7 @@ main .row{
     min-width: 800px;
     border-radius: 20px;
     background-color: bisque;
+    border: 6px double #d3d3d3;
 }
 
 #total::after{
